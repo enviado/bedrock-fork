@@ -70,6 +70,9 @@
     "post-root-package-install": [
       "php -r \"copy('.env.example', '.env');\""
     ],
+    "post-install-cmd": [
+      "php -r \"copy('./laradock/.env.example', './laradock/.env');\""
+    ],
     "test": [
       "phpcs"
     ]

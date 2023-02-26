@@ -74,7 +74,10 @@
 	},
   "scripts": {
     "post-root-package-install": [
-      "php -r \"copy('.env.example', '.env');\""
+      "php -r \"copy('.env.example', '.env');\"",
+      "git submodule init",
+      "git submodule update",
+      "php -r \"copy('./laradock/.env.example', './laradock/.env');\""
     ],
     "post-install-cmd": [
       "php -r \"copy('./laradock/.env.example', './laradock/.env');\""

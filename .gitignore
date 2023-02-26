@@ -9,6 +9,7 @@ web/app/cache/*
 web/app/themes/twentytwentythree/
 web/app/plugins/advanced-custom-fields/
 web/app/plugins/contact-form-7/
+web/app/plugins/cyr2lat/
 
 # WordPress
 web/wp

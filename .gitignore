@@ -15,7 +15,7 @@ web/wp
 web/.htaccess
 
 # Docker
-laradock/
+# laradock/
 
 # Logs
 log/

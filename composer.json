@@ -68,8 +68,8 @@
     "wordpress-install-dir": "web/wp"
   },
   "autoload": {
-		"psr-4": { "Esconder\\Plugins": "./web/app/plugins" },
-		"psr-4": { "Esconder\\Themes": "./web/app/themes" },
+		"psr-4": { "Esconder\\Plugins\\": "./web/app/plugins" },
+		"psr-4": { "Esconder\\Themes\\": "./web/app/themes" },
 		"files": [ "./config/inc/helpers.php" ]
 	},
   "scripts": {
